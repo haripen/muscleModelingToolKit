@@ -2,6 +2,7 @@
 % search path 
 % Christopher D. Whitney (chrisswhitneyy@gmail.com) 
 
+addpath(genpath('.'));
 
 % Test for GA 
 assert(exist('ga.m','file') == 2, 'Matlab Optimization Tool Kit is not installed properly');
